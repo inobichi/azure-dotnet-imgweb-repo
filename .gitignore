@@ -1,0 +1,73 @@
+### Visual Studio / .NET gitignore
+# Generated for C#/.NET projects (Visual Studio, Rider, VS Code)
+
+# Build directories
+/bin/
+/obj/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Build output
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.meta
+*.obj
+
+# Publish output
+publish/
+artifacts/
+*.Publish.xml
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+
+# Logs
+*.log
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userprefs
+
+# Rider and IntelliJ
+/.idea/
+
+# Azure Web App publish settings
+*.PublishSettings
+
+# Resharper
+_ReSharper*/
+*.ReSharper*/
+
+# Backup & OS files
+*.DS_Store
+Thumbs.db
+
+# JetBrains Rider
+/.idea/
+
+# VS Code workspace cache
+/.vscode/*
+!.vscode/settings.json
